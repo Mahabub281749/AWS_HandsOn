@@ -1,6 +1,12 @@
 ## IAM
 
-IAM Users & Groups
+<li>
+
+  <ol>IAM Users & Groups</ol>
+
+  <li>
+    <ul>IAM Users & Groups via console</ul>
+  </li>
 
 1. create an IAM user.
 
@@ -25,3 +31,45 @@ IAM Users & Groups
 11. click on "Review".
 
 12. create this user.
+
+
+  <li>
+    <ul>IAM Users & Groups via Terraform</ul>
+  </li>
+
+# Creating group
+
+resource "aws_iam_group" "developers" {
+  name = "developers"
+  path = "/users/"
+}
+
+# Create single user
+
+resource "aws_iam_user" "user" {
+  name = "Oishe"
+}
+
+# Create Multiple user
+
+resource "aws_iam_user" "example" {
+  count = "${length(var.username)}"
+  name = "${element(var.username,count.index)}"
+  path = "/system/"
+}
+
+
+# add users to a group
+
+resource "aws_iam_group_membership" "team" {
+  name = "tf-testing-group-membership"
+  
+  users = [
+    aws_iam_user.user.name,
+    
+  ]
+
+  group = aws_iam_group.developers.name
+}
+
+</li> 
