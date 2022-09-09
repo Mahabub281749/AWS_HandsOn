@@ -9,3 +9,7 @@
 
 1. Attach IAM Policy via Console:
 2. Attach IAM Policy via Terraform
+
+*** IAM Access Key ***
+
+1. Create IAM Access ID & key via Terraform
