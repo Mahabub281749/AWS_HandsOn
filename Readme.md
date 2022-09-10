@@ -13,3 +13,8 @@
 *** IAM Access Key ***
 
 1. Create IAM Access ID & key via Terraform
+
+*** IAM Role Policy ***
+
+1. Attach IAM Role Policy via Console:
+2. Attach IAM Role Policy via Terraform
