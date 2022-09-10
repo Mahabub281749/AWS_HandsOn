@@ -18,3 +18,10 @@
 
 1. Attach IAM Role Policy via Console:
 2. Attach IAM Role Policy via Terraform
+
+## EC2
+
+*** Creating EC2 Instance ***
+
+1. Creating EC2 Instance, adding security groups, user data via Console:
+2. Creating EC2 Instance, adding security groups, user data via Terraform
