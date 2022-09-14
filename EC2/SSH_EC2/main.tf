@@ -78,9 +78,11 @@ resource "aws_instance" "Demo" {
   instance_type = var.instance_type
   security_groups = [aws_security_group.HelloWorld_security.name]
   key_name = "${aws_key_pair.deployer.key_name}"
+  user_data = data.template_file.user_data.rendered
   tags = {
     Name = "HelloWorld"
   }
+  
   
 }
 

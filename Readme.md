@@ -25,3 +25,13 @@
 
 1. Creating EC2 Instance, adding security groups, user data via Console:
 2. Creating EC2 Instance, adding security groups, user data via Terraform
+
+*** SSH into EC2 Instance ***
+
+1. SSH into EC2 instance via Console:
+2. SSH into EC2 instance via Terraform
+
+*** Attaching IAM role to EC2 Instance ***
+
+1. Attaching IAM role to via Console:
+2. Attaching IAM role to via Terraform
