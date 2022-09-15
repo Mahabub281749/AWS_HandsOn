@@ -33,5 +33,15 @@
 
 *** Attaching IAM role to EC2 Instance ***
 
-1. Attaching IAM role to via Console:
-2. Attaching IAM role to via Terraform
+1. Attaching IAM role to EC2 Instance via Console:
+2. Attaching IAM role to EC2 Instancevia Terraform
+
+*** EBS Volume Creation for EC2 Instance ***
+
+1. EBS Volume Creation for EC2 Instance via Console:
+2. EBS Volume Creation for EC2 Instancevia Terraform
+
+*** EBS Snapshot ***
+
+1. EBS Snapshot via console
+2. EBS Snapshot via terraform
