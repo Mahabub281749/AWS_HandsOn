@@ -45,3 +45,8 @@
 
 1. EBS Snapshot via console
 2. EBS Snapshot via terraform
+
+*** AMI from Instance ***
+
+1. Creation of AMI from Instance and then Instance from new AMI via console
+2. Creation of AMI from Instance and then Instance from new AMI via terraform
