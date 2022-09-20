@@ -50,3 +50,8 @@
 
 1. Creation of AMI from Instance and then Instance from new AMI via console
 2. Creation of AMI from Instance and then Instance from new AMI via terraform
+
+*** EC2 Image Builder ***
+
+1. Creation of EC2 Image Builder via console
+2. Creation of EC2 Image Buildervia terraform
